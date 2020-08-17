@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3564f637802cc464e8cf55119e223983, type: 3}
+  m_Name: PlasmaPowerup
+  m_EditorClassIdentifier: 
+  icon: {fileID: 21300000, guid: a85c7d04fec969049bc5f2f0d405b629, type: 3}
+  singleUse: 0
+  cooldown: 30
+  useOnPickup: 0
+  duration: 10
+  timerPrefab: {fileID: 114437847631802996, guid: 77abf10b6583840448885093c8ccc688,
+    type: 2}
+  weapon: {fileID: 11400000, guid: 9007009c618799248bbb55609dea8125, type: 2}

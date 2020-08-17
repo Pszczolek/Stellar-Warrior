@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!687078895 &4343727234628468602
+SpriteAtlas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Smoke Sprite Atlas
+  m_EditorData:
+    serializedVersion: 2
+    textureSettings:
+      serializedVersion: 2
+      anisoLevel: 1
+      compressionQuality: 50
+      maxTextureSize: 2048
+      textureCompression: 0
+      filterMode: 1
+      generateMipMaps: 0
+      readable: 0
+      crunchedCompression: 0
+      sRGB: 1
+    platformSettings: []
+    packingSettings:
+      serializedVersion: 2
+      padding: 4
+      blockOffset: 1
+      allowAlphaSplitting: 0
+      enableRotation: 1
+      enableTightPacking: 1
+    variantMultiplier: 1
+    packables:
+    - {fileID: 2800000, guid: 1e0262a6f0540fa4bb2adf54a9cfdb9f, type: 3}
+    - {fileID: 2800000, guid: 9cf65ffa2f040454281ddcfd845d8ab7, type: 3}
+    - {fileID: 2800000, guid: 4b1ecfb87486d9343af5ff285e75a1f4, type: 3}
+    - {fileID: 2800000, guid: 4c5f08c7a1734834cb8748343e70899f, type: 3}
+    - {fileID: 2800000, guid: c88bfa47fcb6a6f4b805af9931ef2da4, type: 3}
+    - {fileID: 2800000, guid: 76407e4cdd265aa41af9606dd5a8ab8e, type: 3}
+    - {fileID: 2800000, guid: f2a6ba456e328684a8fcdbca9e01702b, type: 3}
+    - {fileID: 2800000, guid: 5c400c0f8c20062499bcb69d1ed39be0, type: 3}
+    - {fileID: 2800000, guid: f73e8e22fa66e4a4b9990851327a51e0, type: 3}
+    - {fileID: 2800000, guid: e3f22c0e44596784988d695f089de94c, type: 3}
+    - {fileID: 2800000, guid: 350bb6385ed51bd49a0654f960bccb8d, type: 3}
+    - {fileID: 2800000, guid: d019f7f1160c0a04eb8f765298f2bbd0, type: 3}
+    - {fileID: 2800000, guid: ee874e3cd10c3d541a1344082c8535ad, type: 3}
+    - {fileID: 2800000, guid: 87919391c55d76b4eb00c96abbcfd40d, type: 3}
+    - {fileID: 2800000, guid: 61c3cea2b0e84ae49b963a0929c8794e, type: 3}
+    - {fileID: 2800000, guid: 05ad079fda5d8d44e850de4036eb87f3, type: 3}
+    - {fileID: 2800000, guid: 629e22b8e9d3e794891ea8494439ae36, type: 3}
+    - {fileID: 2800000, guid: 534dc1eac35481c43a61131969c7698d, type: 3}
+    - {fileID: 2800000, guid: dc6bf9aca4bce9640a274fb06f4a51aa, type: 3}
+    - {fileID: 2800000, guid: b26e412e029f2bd40a4d6dbf98e50f9d, type: 3}
+    - {fileID: 2800000, guid: 9b68aaff0d34ad64cb83b091b2a46e93, type: 3}
+    - {fileID: 2800000, guid: 99fe5b99489707242a1d922c45ec015a, type: 3}
+    - {fileID: 2800000, guid: 50bac0e86c14a1247a77b241baa06d29, type: 3}
+    - {fileID: 2800000, guid: 36319de32439c844796494507273eb75, type: 3}
+    - {fileID: 2800000, guid: 502239e4144814b43b716c19269f48cd, type: 3}
+    bindAsDefault: 1
+  m_MasterAtlas: {fileID: 0}
+  m_PackedSprites:
+  - {fileID: 21300000, guid: 87919391c55d76b4eb00c96abbcfd40d, type: 3}
+  - {fileID: 21300000, guid: d019f7f1160c0a04eb8f765298f2bbd0, type: 3}
+  - {fileID: 21300000, guid: f73e8e22fa66e4a4b9990851327a51e0, type: 3}
+  - {fileID: 21300000, guid: 61c3cea2b0e84ae49b963a0929c8794e, type: 3}
+  - {fileID: 21300000, guid: 36319de32439c844796494507273eb75, type: 3}
+  - {fileID: 21300000, guid: 502239e4144814b43b716c19269f48cd, type: 3}
+  - {fileID: 21300000, guid: f2a6ba456e328684a8fcdbca9e01702b, type: 3}
+  - {fileID: 21300000, guid: 1e0262a6f0540fa4bb2adf54a9cfdb9f, type: 3}
+  - {fileID: 21300000, guid: c88bfa47fcb6a6f4b805af9931ef2da4, type: 3}
+  - {fileID: 21300000, guid: 4c5f08c7a1734834cb8748343e70899f, type: 3}
+  - {fileID: 21300000, guid: 350bb6385ed51bd49a0654f960bccb8d, type: 3}
+  - {fileID: 21300000, guid: 629e22b8e9d3e794891ea8494439ae36, type: 3}
+  - {fileID: 21300000, guid: 4b1ecfb87486d9343af5ff285e75a1f4, type: 3}
+  - {fileID: 21300000, guid: 50bac0e86c14a1247a77b241baa06d29, type: 3}
+  - {fileID: 21300000, guid: 99fe5b99489707242a1d922c45ec015a, type: 3}
+  - {fileID: 21300000, guid: 534dc1eac35481c43a61131969c7698d, type: 3}
+  - {fileID: 21300000, guid: 9cf65ffa2f040454281ddcfd845d8ab7, type: 3}
+  - {fileID: 21300000, guid: ee874e3cd10c3d541a1344082c8535ad, type: 3}
+  - {fileID: 21300000, guid: 76407e4cdd265aa41af9606dd5a8ab8e, type: 3}
+  - {fileID: 21300000, guid: dc6bf9aca4bce9640a274fb06f4a51aa, type: 3}
+  - {fileID: 21300000, guid: e3f22c0e44596784988d695f089de94c, type: 3}
+  - {fileID: 21300000, guid: b26e412e029f2bd40a4d6dbf98e50f9d, type: 3}
+  - {fileID: 21300000, guid: 5c400c0f8c20062499bcb69d1ed39be0, type: 3}
+  - {fileID: 21300000, guid: 05ad079fda5d8d44e850de4036eb87f3, type: 3}
+  - {fileID: 21300000, guid: 9b68aaff0d34ad64cb83b091b2a46e93, type: 3}
+  m_PackedSpriteNamesToIndex:
+  - whitePuff13
+  - whitePuff11
+  - whitePuff08
+  - whitePuff14
+  - whitePuff23
+  - whitePuff24
+  - whitePuff06
+  - whitePuff00
+  - whitePuff04
+  - whitePuff03
+  - whitePuff10
+  - whitePuff16
+  - whitePuff02
+  - whitePuff22
+  - whitePuff21
+  - whitePuff17
+  - whitePuff01
+  - whitePuff12
+  - whitePuff05
+  - whitePuff18
+  - whitePuff09
+  - whitePuff19
+  - whitePuff07
+  - whitePuff15
+  - whitePuff20
+  m_Tag: Smoke Sprite Atlas
+  m_IsVariant: 0

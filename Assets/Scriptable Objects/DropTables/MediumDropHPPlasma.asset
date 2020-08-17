@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3fd8078ac9afc564da549ccf78e8257c, type: 3}
+  m_Name: MediumDropHPPlasma
+  m_EditorClassIdentifier: 
+  allowMultipleDrops: 0
+  possibleDrops:
+  - item: {fileID: 1662815281949514, guid: dfe5ae371c7276742b0856a455b46749, type: 2}
+    dropChance: 0.1
+  - item: {fileID: 1662815281949514, guid: 4192f3ab36adcad4ab7e0ea4e0749605, type: 2}
+    dropChance: 0.1

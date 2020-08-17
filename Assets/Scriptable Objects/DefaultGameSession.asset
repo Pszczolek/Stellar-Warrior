@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 251672b9ea65f1c4ab4f2df25e77160f, type: 3}
+  m_Name: DefaultGameSession
+  m_EditorClassIdentifier: 
+  score: {fileID: 11400000, guid: 294785f14da58964da846b5270b976de, type: 2}
+  lives: {fileID: 11400000, guid: 5eb9870a4a4506f41a10bb769306a0e1, type: 2}
+  health: {fileID: 11400000, guid: 127223f1d94c6564c9d998dc07d5c46b, type: 2}
+  maxHealth: {fileID: 11400000, guid: 596659bd6aa688e4db287e30223d93ca, type: 2}
+  playerShipPrefab: {fileID: 1071259841886460, guid: 9c044989b17b64e4fbcefbc78b8eb63e,
+    type: 2}
+  startRespawnDelay: 2
+  respawnDelay: 2
+  timeScale: 1
+  lastLevelUnlocked: 1
+  playerSpawnerPrefab: {fileID: 1962891244803928, guid: bc01a99c2d391c34eace6b0f0749b567,
+    type: 2}
+  scoreEvent: {fileID: 11400000, guid: a6f58297fbc2ea2429d9d7a05c7010ce, type: 2}
+  playerDestroyedEvent: {fileID: 11400000, guid: 6cd5fbcaa414c2447816076344ceaf8d,
+    type: 2}
+  gameOverEvent: {fileID: 11400000, guid: 3cbe590585c853544928f705922a72ed, type: 2}
+  playerRespawnEvent: {fileID: 11400000, guid: d15425f37bf0ac94481429bd6dd608a4, type: 2}
+  gamePausedEvent: {fileID: 11400000, guid: 357f158719336894da8250597a4e0e9a, type: 2}
+  gameUnpausedEvent: {fileID: 11400000, guid: 63898fd985dfe5141862dfa8b9846e89, type: 2}
+  saveData:
+    unlockedLevel: 1
+  resetProggress: 0

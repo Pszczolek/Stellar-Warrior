@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a22e120db8132e4880a7efad85ad930, type: 3}
+  m_Name: L4 - Wave 3-3
+  m_EditorClassIdentifier: 
+  enemyPrefab: {fileID: 1441321625346646, guid: 336261cd021a2d24d8530d39e0c70bbe,
+    type: 2}
+  pathPrefab: {fileID: 1526369971492986, guid: d9b28b900268d324bab5f5aa0cc56e62, type: 2}
+  waveStartDelay: 0
+  timeBetweenSpawns: 0.5
+  spawnRandomFactor: 0.3
+  numberOfEnemies: 1
+  moveSpeed: 1
+  _pathOffsetPerSpawn: {x: 0, y: -1.5}
+  _pathingBehavior: 2
+  loopMovement: 0
