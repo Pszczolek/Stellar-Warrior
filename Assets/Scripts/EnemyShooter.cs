@@ -39,29 +39,32 @@ public class EnemyShooter : MonoBehaviour {
         yield return null;
     }
 
-    //private void OnDisable()
-    //{
-    //    if (isFiring)
-    //        StopFiring();
-    //}
+    private void OnDisable()
+    {
+        StopFiring();
+    }
 
-    //private void OnEnable()
-    //{
-    //    if (!isFiring)
-    //        StartFiring();
-    //}
+    private void OnEnable()
+    {
+        StartFiring();
+    }
 
     public void StartFiring()
     {
         //isFiring = true;
-        fireCoroutine = StartCoroutine(weapon.Fire(gameObject));
+        if (fireCoroutine == null)
+            fireCoroutine = StartCoroutine(weapon.Fire(gameObject));
     }
 
     public void StopFiring()
     {
         //isFiring = false;
         if (fireCoroutine != null)
+        {
             StopCoroutine(fireCoroutine);
+            fireCoroutine = null;
+        }
+
     }
 
 
