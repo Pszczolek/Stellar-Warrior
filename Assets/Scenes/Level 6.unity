@@ -211,38 +211,54 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 1169365043307488, guid: 62f102b5113b39f4990a333d05a0d4d6, type: 2}
+    - target: {fileID: 331651564024520616, guid: 62f102b5113b39f4990a333d05a0d4d6,
+        type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 77bf4afcdbc7c1c478ad3df610e56a4b,
+        type: 3}
+    - target: {fileID: 4165792432253692, guid: 62f102b5113b39f4990a333d05a0d4d6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 331651564024520616, guid: 62f102b5113b39f4990a333d05a0d4d6,
+        type: 2}
+      propertyPath: m_MaskAlphaCutoff
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 331651564024520616, guid: 62f102b5113b39f4990a333d05a0d4d6,
+        type: 2}
+      propertyPath: m_SpriteSortPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1823157196744628, guid: 62f102b5113b39f4990a333d05a0d4d6, type: 2}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 95391233654969660, guid: 62f102b5113b39f4990a333d05a0d4d6,
+    - target: {fileID: 114876451609257970, guid: 62f102b5113b39f4990a333d05a0d4d6,
         type: 2}
-      propertyPath: m_Controller
-      value: 
-      objectReference: {fileID: 9100000, guid: c0e2ebb7d17ad46418d0d47010c245be, type: 2}
-    - target: {fileID: 1820892161842862, guid: 62f102b5113b39f4990a333d05a0d4d6, type: 2}
-      propertyPath: m_IsActive
-      value: 1
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114227989049453186, guid: 62f102b5113b39f4990a333d05a0d4d6,
+        type: 2}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1982412271134724, guid: 62f102b5113b39f4990a333d05a0d4d6, type: 2}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 199577676594896470, guid: 62f102b5113b39f4990a333d05a0d4d6,
+    - target: {fileID: 198564008774657578, guid: 62f102b5113b39f4990a333d05a0d4d6,
         type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a53705b742ff7464c8c68d1928ec1eab, type: 2}
-    - target: {fileID: 199248409672672442, guid: 62f102b5113b39f4990a333d05a0d4d6,
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 198382211274461424, guid: 62f102b5113b39f4990a333d05a0d4d6,
         type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a53705b742ff7464c8c68d1928ec1eab, type: 2}
-    - target: {fileID: 199320599654705198, guid: 62f102b5113b39f4990a333d05a0d4d6,
-        type: 2}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: a53705b742ff7464c8c68d1928ec1eab, type: 2}
+      propertyPath: prewarm
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62f102b5113b39f4990a333d05a0d4d6, type: 2}
   m_IsPrefabAsset: 0
@@ -388,24 +404,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1140203867 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1982412271134724, guid: 62f102b5113b39f4990a333d05a0d4d6,
-    type: 2}
-  m_PrefabInternal: {fileID: 583414888}
---- !u!114 &1140203869
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1140203867}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc5fa0c30ceffc94ebb3e0be158eeeca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  weapon: {fileID: 11400000, guid: f3fa85baab3e52246ba870688743f350, type: 2}
-  startingFireDelay: 1
 --- !u!1 &2061821088
 GameObject:
   m_ObjectHideFlags: 0

@@ -422,6 +422,7 @@ GameObject:
   - component: {fileID: 4165792432253692}
   - component: {fileID: 212018767237826206}
   - component: {fileID: 331651564024520616}
+  - component: {fileID: 114734042809471446}
   m_Layer: 10
   m_Name: MainLaser
   m_TagString: Untagged
@@ -489,7 +490,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1982412271134724}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.21, z: 0}
+  m_LocalPosition: {x: 0, y: 0.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4989187501752598}
@@ -716,7 +717,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1169365043307488}
   m_LocalRotation: {x: -0.5, y: 0.5, z: 0.5, w: 0.5}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 2}
   m_Children:
   - {fileID: 4340219205812758}
@@ -1092,7 +1093,7 @@ Animator:
   m_GameObject: {fileID: 1820892161842862}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 46e244942c40de747b77a42a865065d1, type: 2}
+  m_Controller: {fileID: 9100000, guid: c0e2ebb7d17ad46418d0d47010c245be, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1249,6 +1250,19 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
+--- !u!114 &114734042809471446
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1982412271134724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc5fa0c30ceffc94ebb3e0be158eeeca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weapon: {fileID: 11400000, guid: f3fa85baab3e52246ba870688743f350, type: 2}
+  startingFireDelay: 1
 --- !u!114 &114821810072834300
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -65504,7 +65518,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 542422339fd779b49835e7b91acbf7cf, type: 2}
+  - {fileID: 2100000, guid: a53705b742ff7464c8c68d1928ec1eab, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -65561,7 +65575,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 542422339fd779b49835e7b91acbf7cf, type: 2}
+  - {fileID: 2100000, guid: a53705b742ff7464c8c68d1928ec1eab, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -65732,7 +65746,7 @@ ParticleSystemRenderer:
   m_ReflectionProbeUsage: 0
   m_RenderingLayerMask: 4294967295
   m_Materials:
-  - {fileID: 2100000, guid: 542422339fd779b49835e7b91acbf7cf, type: 2}
+  - {fileID: 2100000, guid: a53705b742ff7464c8c68d1928ec1eab, type: 2}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
