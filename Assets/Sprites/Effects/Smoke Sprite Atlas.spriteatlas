@@ -4,7 +4,8 @@
 SpriteAtlas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Smoke Sprite Atlas
   m_EditorData:
     serializedVersion: 2
@@ -54,6 +55,7 @@ SpriteAtlas:
     - {fileID: 2800000, guid: 50bac0e86c14a1247a77b241baa06d29, type: 3}
     - {fileID: 2800000, guid: 36319de32439c844796494507273eb75, type: 3}
     - {fileID: 2800000, guid: 502239e4144814b43b716c19269f48cd, type: 3}
+    totalSpriteSurfaceArea: 3534727
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:

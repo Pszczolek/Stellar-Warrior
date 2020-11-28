@@ -6,30 +6,25 @@ public class EnemyShooter : MonoBehaviour {
 
     [SerializeField] PrimaryWeaponType weapon;
     [SerializeField] float startingFireDelay = 1f;
-    private bool outOfBounds = false;
-    private Coroutine delayCoroutine;
+    private bool isVisible = false;
     private Coroutine fireCoroutine;
     //private bool isFiring = false;
 
     private void Start()
     {
-        
+
     }
 
     private void OnBecameInvisible()
     {
-        StopCoroutine(FireStartDelay());
-        outOfBounds = true;
-        //if (isFiring)
-            StopFiring();
+        isVisible = false;
+        FireOff();
     }
 
     private void OnBecameVisible()
     {
-        StopCoroutine(FireStartDelay());
-        outOfBounds = false;
-        //if (!isFiring)
-        delayCoroutine = StartCoroutine(FireStartDelay());
+        isVisible = true;
+        FireOn();
     }
 
     private IEnumerator FireStartDelay()
@@ -41,12 +36,29 @@ public class EnemyShooter : MonoBehaviour {
 
     private void OnDisable()
     {
-        StopFiring();
+        FireOff();
     }
 
     private void OnEnable()
     {
-        StartFiring();
+        if(isVisible)
+            FireOn();
+    }
+
+    public void FireOn()
+    {
+        StopCoroutine(FireStartDelay());
+        //outOfBounds = false;
+        //if (!isFiring)
+        StartCoroutine(FireStartDelay());
+    }
+
+    public void FireOff()
+    {
+        StopCoroutine(FireStartDelay());
+        //outOfBounds = true;
+        //if (isFiring)
+        StopFiring();
     }
 
     public void StartFiring()
