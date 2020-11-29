@@ -4893,6 +4893,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1820892161842862, guid: 62f102b5113b39f4990a333d05a0d4d6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1823157196744628, guid: 62f102b5113b39f4990a333d05a0d4d6, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -5007,7 +5011,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &725561428
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5054,7 +5058,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveConfigs:
-  - {fileID: 11400000, guid: 40dbafb290711a9419c6fe68f75b431a, type: 2}
+  - {fileID: 11400000, guid: 676a34353961d2a44887e13b53c3448b, type: 2}
+  - {fileID: 11400000, guid: 676a34353961d2a44887e13b53c3448b, type: 2}
   startingWave: 0
   timer: 0
   readyToSpawnNextWave: 0

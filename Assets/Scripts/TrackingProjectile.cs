@@ -89,7 +89,8 @@ public class TrackingProjectile : MonoBehaviour {
         float targetAngle = Vector2.SignedAngle(Vector2.up, targetPos - pos);
         float currentAngle = myRigidBody.rotation;
 
-        if (Mathf.Abs(Mathf.DeltaAngle(targetAngle, currentAngle)) > sightRadius / 2) { return false; }
+        if (Mathf.Abs(Mathf.DeltaAngle(targetAngle, currentAngle)) > sightRadius / 2)
+            { return false; }
         return true;
     }
 

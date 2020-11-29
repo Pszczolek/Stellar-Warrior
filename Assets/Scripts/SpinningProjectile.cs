@@ -16,6 +16,14 @@ public class SpinningProjectile : MonoBehaviour {
 
     private void Rotate()
     {
-        myRigidBody.rotation += rotationPerSecond * Time.deltaTime;
+        if(myRigidBody != null)
+        {
+            myRigidBody.rotation += rotationPerSecond * Time.deltaTime;
+        }
+        else
+        {
+            transform.Rotate(0, 0, rotationPerSecond * Time.deltaTime);
+        }
+
     }
 }

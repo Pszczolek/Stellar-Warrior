@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 948ae04c1800c754484dd3142e5b1c5e, type: 3}
-  m_Name: EnemyLaserBigBeam
+  m_Name: EnemySemiTrackingBlasterSlow
   m_EditorClassIdentifier: 
-  projectilePrefab: {fileID: 1627231363010350, guid: 0800ae525fbab7044a241e64a37000d2,
+  projectilePrefab: {fileID: 1627231363010350, guid: 4b794f907e113fe42b760974ea608cf2,
     type: 3}
-  projectileSFX: {fileID: 0}
-  projectileSpeed: -20
-  fireCooldown: 0.05
+  projectileSFX: {fileID: 8300000, guid: bfb571ba11e3eda44a4d883151e69ee3, type: 3}
+  projectileSpeed: -5
+  fireCooldown: 3
   numberOfProjectiles: 1
   fireRadius: 0
   useShootersRotation: 0
